@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Genève Dépannage - Dépannage serrurerie, plomberie, vitrerie & débouchage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #004080;
+      border-bottom: 2px solid #004080;
+      padding-bottom: 5px;
+    }
+    h3 {
+      margin-top: 20px;
+      color: #0066cc;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .contact-info {
+      background: #e6f0ff;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+    .contact-info a {
+      color: #004080;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+    }
+    form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #004080;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+      resize: vertical;
+    }
+    form button {
+      background-color: #004080;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #003060;
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Genève Dépannage</h1>
+    <p>Dépannage serrurerie, plomberie, vitrerie & débouchage – Intervention rapide 24/7</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Votre solution de confiance pour tous vos dépannages d’urgence</h2>
+      <p>Basés à Genève, nous intervenons rapidement chez vous pour résoudre tous vos problèmes de serrurerie, plomberie, vitrerie et débouchage. Notre équipe expérimentée est disponible 24 heures sur 24, 7 jours sur 7, pour vous garantir un service efficace et fiable.</p>
+    </section>
+
+    <section>
+      <h2>Nos services</h2>
+      <h3>Serrurerie</h3>
+      <p>Ouverture de portes, changement de serrures, installation de dispositifs de sécurité – nous assurons votre tranquillité d’esprit.</p>
+      
+      <h3>Plomberie</h3>
+      <p>Fuites, installations sanitaires, réparations urgentes – nous remettons votre plomberie en état en un rien de temps.</p>
+      
+      <h3>Vitrerie</h3>
+      <p>Remplacement de vitrages cassés, réparation de fenêtres et baies vitrées, intervention soignée et rapide.</p>
+      
+      <h3>Débouchage</h3>
+      <p>Canalisations bouchées ? WC, éviers ou drains, nous débouchons tous types d’obstructions efficacement.</p>
+    </section>
+
+    <section>
+      <h2>Pourquoi nous choisir ?</h2>
+      <ul>
+        <li>Intervention rapide 24/7</li>
+        <li>Techniciens qualifiés et équipés</li>
+        <li>Tarifs transparents et compétitifs</li>
+        <li>Garantie satisfaction</li>
+        <li>Devis gratuit et sans engagement</li>
+      </ul>
+    </section>
+
+    <section class="contact-info">
+      <h2>Contactez-nous dès maintenant !</h2>
+      <p>Pour une intervention d’urgence ou un devis personnalisé, contactez-nous par WhatsApp au :<br />
+      <a href="https://wa.me/41779981945" target="_blank">+41 77 998 19 45</a></p>
+      <p>Ou envoyez un email à :<br />
+      <a href="mailto:Genèvedepannage1201@icloud.com">Genèvedepannage1201@icloud.com</a></p>
+    </section>
+
+    <section>
+      <h2>Formulaire de contact</h2>
+      <form action="mailto:Genèvedepannage1201@icloud.com" method="post" enctype="text/plain">
+        <label for="name">Nom complet :</label>
+        <input type="text" id="name" name="Nom" required />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="Email" required />
+
+        <label for="phone">Téléphone :</label>
+        <input type="tel" id="phone" name="Téléphone" />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="Message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    Genève Dépannage – Votre partenaire dépannage de confiance à Genève
+  </footer>
+</body>
+</html>
